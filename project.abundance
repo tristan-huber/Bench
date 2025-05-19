@@ -11,7 +11,7 @@
         },
         {
             "name": "Benchseat width",
-            "ioValue": 400
+            "ioValue": 350
         },
         {
             "name": "Bench height",
@@ -19,7 +19,7 @@
         },
         {
             "name": "Seat thickness",
-            "ioValue": 18
+            "ioValue": 45
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -31,7 +31,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1747687603211,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1747688530772
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -47,11 +52,11 @@
                 },
                 {
                     "name": "Benchseat width",
-                    "ioValue": 400
+                    "ioValue": 350
                 },
                 {
                     "name": "Benchseat thickness",
-                    "ioValue": 18
+                    "ioValue": 45
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -84,7 +89,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 400
+                            "ioValue": 350
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -132,7 +137,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 18
+                            "ioValue": 45
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -187,11 +192,11 @@
             "ioValues": [
                 {
                     "name": "CornerDiameter",
-                    "ioValue": 150
+                    "ioValue": 200
                 },
                 {
                     "name": "Benchleg width",
-                    "ioValue": 450
+                    "ioValue": 430
                 },
                 {
                     "name": "Bench height",
@@ -199,11 +204,11 @@
                 },
                 {
                     "name": "Benchseat width",
-                    "ioValue": 400
+                    "ioValue": 350
                 },
                 {
                     "name": "Benchseat thickness",
-                    "ioValue": 18
+                    "ioValue": 45
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -232,11 +237,11 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 400
+                            "ioValue": 350
                         },
                         {
                             "name": "y length",
-                            "ioValue": 22.5
+                            "ioValue": 56.25
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -250,7 +255,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 450
+                            "ioValue": 430
                         },
                         {
                             "name": "y length",
@@ -330,7 +335,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 337.5
+                            "ioValue": 322.5
                         },
                         {
                             "name": "y length",
@@ -407,7 +412,7 @@
                     "ioValues": [
                         {
                             "name": "Diameter",
-                            "ioValue": 150
+                            "ioValue": 200
                         }
                     ],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -446,7 +451,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 150
+                                    "ioValue": 200
                                 }
                             ],
                             "description": "Creates a new circle."
@@ -460,7 +465,7 @@
                             "ioValues": [
                                 {
                                     "name": "x",
-                                    "ioValue": 150
+                                    "ioValue": 200
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -475,7 +480,7 @@
                             "ioValues": [
                                 {
                                     "name": "x",
-                                    "ioValue": 150
+                                    "ioValue": 200
                                 }
                             ],
                             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -494,11 +499,11 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 37.5
+                                    "ioValue": 50
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 37.5
+                                    "ioValue": 50
                                 },
                                 {
                                     "name": "zDist",
@@ -534,11 +539,11 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 75
+                                    "ioValue": 100
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 75
+                                    "ioValue": 100
                                 }
                             ],
                             "description": "Creates a new rectangle."
@@ -639,11 +644,11 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 150
+                            "ioValue": 115
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 268.75
+                            "ioValue": 243.75
                         },
                         {
                             "name": "zDist",
@@ -675,7 +680,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 150
+                            "ioValue": 200
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -690,11 +695,11 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 450
+                            "ioValue": 430
                         },
                         {
                             "name": "y",
-                            "ioValue": 150
+                            "ioValue": 200
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -747,7 +752,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 450
+                            "ioValue": 430
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -816,7 +821,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 18
+                            "ioValue": 45
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -861,11 +866,11 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -150
+                            "ioValue": -115
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 268.75
+                            "ioValue": 243.75
                         },
                         {
                             "name": "zDist",
@@ -883,7 +888,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 150
+                            "ioValue": 115
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -920,11 +925,11 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 93.75
+                            "ioValue": 61.25
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 62.49999999999994
+                            "ioValue": 37.49999999999994
                         },
                         {
                             "name": "zDist",
@@ -942,11 +947,11 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 337.5
+                            "ioValue": 322.5
                         },
                         {
                             "name": "y",
-                            "ioValue": 150
+                            "ioValue": 200
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -965,7 +970,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 150
+                            "ioValue": 200
                         },
                         {
                             "name": "z",
@@ -1037,11 +1042,11 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -93.75
+                            "ioValue": -61.25
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 62.49999999999994
+                            "ioValue": 37.49999999999994
                         },
                         {
                             "name": "zDist",
@@ -1059,7 +1064,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 93.75
+                            "ioValue": 61.25
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1533,7 +1538,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 550
+                    "ioValue": 470
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -1582,8 +1587,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.4223958333333333,
-            "y": 0.7813953488372094,
+            "x": 0.4427083333333333,
+            "y": 0.7767441860465116,
             "uniqueID": 1747688385650,
             "ioValues": [
                 {
@@ -1600,14 +1605,14 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 330
+                    "ioValue": 275
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
         },
         {
             "atomType": "Equation",
-            "name": "x*0.5+55",
+            "name": "x*0.5",
             "x": 0.33125,
             "y": 0.9255813953488373,
             "uniqueID": 1747688415323,
@@ -1618,13 +1623,13 @@
                 }
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-            "currentEquation": "x*0.5+55"
+            "currentEquation": "x*0.5"
         },
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.6453125000000001,
-            "y": 0.4767441860465116,
+            "x": 0.6515625,
+            "y": 0.4604651162790698,
             "uniqueID": 1747688530772,
             "ioValues": [
                 {
@@ -1689,7 +1694,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 330
+                    "ioValue": 275
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -1708,6 +1713,36 @@
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
             "currentEquation": "-x*0.5"
+        },
+        {
+            "atomType": "Equation",
+            "name": "x-80",
+            "x": 0.3302083333333333,
+            "y": 0.1813953488372093,
+            "uniqueID": 1747688858689,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 550
+                }
+            ],
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "x-80"
+        },
+        {
+            "atomType": "Equation",
+            "name": "x + 80",
+            "x": 0.19739583333333333,
+            "y": 0.4558139534883721,
+            "uniqueID": 1747689232348,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 350
+                }
+            ],
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "x + 80"
         }
     ],
     "allConnectors": [
@@ -1769,6 +1804,13 @@
         },
         {
             "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 1747687888856,
+            "ap2ID": 1747689232348
+        },
+        {
+            "ap1Name": "number or geometry",
             "ap2Name": "Bench height",
             "ap2Primary": false,
             "ap1ID": 1747687910718,
@@ -1776,17 +1818,17 @@
         },
         {
             "ap1Name": "number or geometry",
-            "ap2Name": "zDist",
+            "ap2Name": "x",
             "ap2Primary": false,
             "ap1ID": 1747687910718,
-            "ap2ID": 1747688153966
+            "ap2ID": 1747688415323
         },
         {
             "ap1Name": "number or geometry",
             "ap2Name": "x",
             "ap2Primary": false,
             "ap1ID": 1747687910718,
-            "ap2ID": 1747688415323
+            "ap2ID": 1747688858689
         },
         {
             "ap1Name": "number or geometry",
@@ -1846,6 +1888,13 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1747688530772,
+            "ap2ID": 1747687603211
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 1747688587088,
@@ -1864,6 +1913,20 @@
             "ap2Primary": false,
             "ap1ID": 1747688654975,
             "ap2ID": 1747688633177
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "zDist",
+            "ap2Primary": false,
+            "ap1ID": 1747688858689,
+            "ap2ID": 1747688153966
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "Benchleg width",
+            "ap2Primary": false,
+            "ap1ID": 1747689232348,
+            "ap2ID": 1747687835598
         }
     ],
     "unitsKey": "MM",
