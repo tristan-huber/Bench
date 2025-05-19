@@ -7,11 +7,19 @@
     "ioValues": [
         {
             "name": "Bench length",
-            "ioValue": 10
+            "ioValue": 2000
         },
         {
-            "name": "name1",
-            "ioValue": 10
+            "name": "Benchseat width",
+            "ioValue": 400
+        },
+        {
+            "name": "Bench height",
+            "ioValue": 550
+        },
+        {
+            "name": "Thickness",
+            "ioValue": 18
         }
     ],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -29,8 +37,8 @@
         {
             "atomType": "Molecule",
             "name": "Benchseat",
-            "x": 0.11249999999999999,
-            "y": 0.3186046511627907,
+            "x": 0.2557291666666667,
+            "y": 0.28604651162790695,
             "uniqueID": 1747687610553,
             "ioValues": [
                 {
@@ -39,7 +47,7 @@
                 },
                 {
                     "name": "Benchseat width",
-                    "ioValue": 300
+                    "ioValue": 400
                 },
                 {
                     "name": "Benchseat thickness",
@@ -76,7 +84,7 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 300
+                            "ioValue": 400
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -168,13 +176,13 @@
                 }
             ],
             "fileTypeVersion": 1,
-            "compiledBom": {}
+            "compiledBom": []
         },
         {
             "atomType": "GitHubMolecule",
             "name": "Benchlegs",
-            "x": 0.1109375,
-            "y": 0.5674418604651162,
+            "x": 0.26302083333333337,
+            "y": 0.6441860465116279,
             "uniqueID": 1747687835598,
             "ioValues": [
                 {
@@ -191,11 +199,11 @@
                 },
                 {
                     "name": "Benchseat width",
-                    "ioValue": 300
+                    "ioValue": 400
                 },
                 {
                     "name": "Benchseat thickness",
-                    "ioValue": 45
+                    "ioValue": 18
                 }
             ],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -224,11 +232,11 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 300
+                            "ioValue": 400
                         },
                         {
                             "name": "y length",
-                            "ioValue": 56.25
+                            "ioValue": 22.5
                         }
                     ],
                     "description": "Creates a new rectangle."
@@ -808,7 +816,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 45
+                            "ioValue": 18
                         }
                     ],
                     "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1476,16 +1484,141 @@
         },
         {
             "atomType": "Input",
-            "name": "name1",
+            "name": "Benchseat width",
             "x": 0.04,
             "y": 0.3906976744186047,
             "uniqueID": 1747687888856,
             "ioValues": [],
             "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
             "type": "number"
+        },
+        {
+            "atomType": "Input",
+            "name": "Bench height",
+            "x": 0.04,
+            "y": 0.4790697674418605,
+            "uniqueID": 1747687910718,
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
+        },
+        {
+            "atomType": "Input",
+            "name": "Thickness",
+            "x": 0.04,
+            "y": 0.627906976744186,
+            "uniqueID": 1747687950274,
+            "ioValues": [],
+            "description": "Adds an input to the parent molecule. If the parent molecule is the top level of the project then the input will be available when the project is shared or imported into another project. Name is editable",
+            "type": "number"
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.34479166666666666,
+            "y": 0.3674418604651163,
+            "uniqueID": 1747688153966,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1747687610553
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 550
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Equation",
+            "name": "x*0.5",
+            "x": 0.3208333333333333,
+            "y": 0.14651162790697675,
+            "uniqueID": 1747688177656,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 2000
+                }
+            ],
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "x*0.5"
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1747687610553,
+            "ap2ID": 1747688153966
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Bench length",
+            "ap2Primary": false,
+            "ap1ID": 1747687860452,
+            "ap2ID": 1747687610553
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 1747687860452,
+            "ap2ID": 1747688177656
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Benchseat width",
+            "ap2Primary": false,
+            "ap1ID": 1747687888856,
+            "ap2ID": 1747687835598
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Benchseat width",
+            "ap2Primary": false,
+            "ap1ID": 1747687888856,
+            "ap2ID": 1747687610553
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Bench height",
+            "ap2Primary": false,
+            "ap1ID": 1747687910718,
+            "ap2ID": 1747687835598
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "yDist",
+            "ap2Primary": false,
+            "ap1ID": 1747687910718,
+            "ap2ID": 1747688153966
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Benchseat thickness",
+            "ap2Primary": false,
+            "ap1ID": 1747687950274,
+            "ap2ID": 1747687835598
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Benchseat thickness",
+            "ap2Primary": false,
+            "ap1ID": 1747687950274,
+            "ap2ID": 1747687610553
+        }
+    ],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
     "compiledBom": {},
