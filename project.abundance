@@ -1515,8 +1515,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.34479166666666666,
-            "y": 0.3674418604651163,
+            "x": 0.434375,
+            "y": 0.3372093023255814,
             "uniqueID": 1747688153966,
             "ioValues": [
                 {
@@ -1529,11 +1529,11 @@
                 },
                 {
                     "name": "yDist",
-                    "ioValue": 550
+                    "ioValue": 0
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 0
+                    "ioValue": 550
                 }
             ],
             "description": "Moves a shape laterally in X, Y, Z."
@@ -1541,13 +1541,80 @@
         {
             "atomType": "Equation",
             "name": "x*0.5",
-            "x": 0.3208333333333333,
-            "y": 0.14651162790697675,
+            "x": 0.2682291666666667,
+            "y": 0.8558139534883721,
             "uniqueID": 1747688177656,
             "ioValues": [
                 {
                     "name": "x",
                     "ioValue": 2000
+                }
+            ],
+            "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
+            "currentEquation": "x*0.5"
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.3473958333333333,
+            "y": 0.6883720930232559,
+            "uniqueID": 1747688296668,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1747687835598
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 60
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 90
+                }
+            ],
+            "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.41458333333333336,
+            "y": 0.7116279069767443,
+            "uniqueID": 1747688385650,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1747688296668
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 1000
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 275
+                }
+            ],
+            "description": "Moves a shape laterally in X, Y, Z."
+        },
+        {
+            "atomType": "Equation",
+            "name": "x*0.5",
+            "x": 0.3307291666666667,
+            "y": 0.9372093023255813,
+            "uniqueID": 1747688415323,
+            "ioValues": [
+                {
+                    "name": "x",
+                    "ioValue": 550
                 }
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
@@ -1561,6 +1628,13 @@
             "ap2Primary": true,
             "ap1ID": 1747687610553,
             "ap2ID": 1747688153966
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1747687835598,
+            "ap2ID": 1747688296668
         },
         {
             "ap1Name": "number or geometry",
@@ -1599,10 +1673,17 @@
         },
         {
             "ap1Name": "number or geometry",
-            "ap2Name": "yDist",
+            "ap2Name": "zDist",
             "ap2Primary": false,
             "ap1ID": 1747687910718,
             "ap2ID": 1747688153966
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "x",
+            "ap2Primary": false,
+            "ap1ID": 1747687910718,
+            "ap2ID": 1747688415323
         },
         {
             "ap1Name": "number or geometry",
@@ -1617,6 +1698,27 @@
             "ap2Primary": false,
             "ap1ID": 1747687950274,
             "ap2ID": 1747687610553
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "xDist",
+            "ap2Primary": false,
+            "ap1ID": 1747688177656,
+            "ap2ID": 1747688385650
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1747688296668,
+            "ap2ID": 1747688385650
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "zDist",
+            "ap2Primary": false,
+            "ap1ID": 1747688415323,
+            "ap2ID": 1747688385650
         }
     ],
     "unitsKey": "MM",
