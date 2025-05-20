@@ -1764,7 +1764,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": ""
+                    "ioValue": 1747729393885
                 },
                 {
                     "name": "Resolution (dpi)",
@@ -2080,6 +2080,13 @@
             "ap2Primary": false,
             "ap1ID": 1747726962622,
             "ap2ID": 1747725845126
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1747729393885,
+            "ap2ID": 1747726284552
         }
     ],
     "unitsKey": "MM",
