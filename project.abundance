@@ -418,7 +418,7 @@
         },
         {
             "atomType": "Equation",
-            "name": "x-((x-0.75*x)/2)-y/2",
+            "name": "0.875*x-y/2",
             "x": 0.3302083333333333,
             "y": 0.1813953488372093,
             "uniqueID": 1747688858689,
@@ -433,7 +433,7 @@
                 }
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
-            "currentEquation": "x-((x-0.75*x)/2)-y/2"
+            "currentEquation": "0.875*x-y/2"
         },
         {
             "atomType": "Equation",
