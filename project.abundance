@@ -1764,7 +1764,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1747726397226
+                    "ioValue": ""
                 },
                 {
                     "name": "Resolution (dpi)",
@@ -1831,6 +1831,50 @@
             ],
             "description": "Defines a mathematical equation. Edit the output field to add or remove inputs.",
             "currentEquation": "(x+(y/2))/0.875"
+        },
+        {
+            "atomType": "CutLayout",
+            "name": "Cut Layout",
+            "x": 0.6588541666666667,
+            "y": 0.7897310513447433,
+            "uniqueID": 1747729393885,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1747726397226
+                },
+                {
+                    "name": "Sheet Width",
+                    "ioValue": 2438
+                },
+                {
+                    "name": "Sheet Height",
+                    "ioValue": 1219
+                },
+                {
+                    "name": "Part Padding",
+                    "ioValue": 6
+                }
+            ],
+            "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
+            "placements": [
+                {
+                    "translate": {
+                        "x": -842.475341796875,
+                        "y": -202.9396209716797
+                    },
+                    "id": 3,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 418.57992552773436,
+                        "y": -554.702084115625
+                    },
+                    "id": 2,
+                    "rotate": 270
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -2007,7 +2051,7 @@
             "ap2Name": "geometry",
             "ap2Primary": false,
             "ap1ID": 1747726397226,
-            "ap2ID": 1747726284552
+            "ap2ID": 1747729393885
         },
         {
             "ap1Name": "number or geometry",
