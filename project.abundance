@@ -510,12 +510,12 @@
                     "uniqueID": 1747725845345,
                     "ioValues": [
                         {
-                            "name": "geometry1",
-                            "ioValue": 1747725844964
-                        },
-                        {
                             "name": "geometry2",
                             "ioValue": 1747725845017
+                        },
+                        {
+                            "name": "geometry1",
+                            "ioValue": 1747725844964
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
@@ -616,12 +616,12 @@
                     "uniqueID": 1747725845416,
                     "ioValues": [
                         {
-                            "name": "geometry1",
-                            "ioValue": 1747725845345
-                        },
-                        {
                             "name": "geometry2",
                             "ioValue": 1747725844774
+                        },
+                        {
+                            "name": "geometry1",
+                            "ioValue": 1747725845345
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
@@ -758,12 +758,12 @@
                             "uniqueID": 1747666061908,
                             "ioValues": [
                                 {
-                                    "name": "geometry1",
-                                    "ioValue": 1747665925917
-                                },
-                                {
                                     "name": "geometry2",
                                     "ioValue": 1747665178783
+                                },
+                                {
+                                    "name": "geometry1",
+                                    "ioValue": 1747665925917
                                 }
                             ],
                             "description": "Subtracts shape two from shape one."
@@ -951,12 +951,12 @@
                     "uniqueID": 1747725845151,
                     "ioValues": [
                         {
-                            "name": "geometry1",
-                            "ioValue": 1747725845416
-                        },
-                        {
                             "name": "geometry2",
                             "ioValue": 1747725845022
+                        },
+                        {
+                            "name": "geometry1",
+                            "ioValue": 1747725845416
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
@@ -1140,12 +1140,12 @@
                     "uniqueID": 1747725845308,
                     "ioValues": [
                         {
-                            "name": "geometry1",
-                            "ioValue": 1747725845151
-                        },
-                        {
                             "name": "geometry2",
                             "ioValue": 1747725845293
+                        },
+                        {
+                            "name": "geometry1",
+                            "ioValue": 1747725845151
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
@@ -1841,7 +1841,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1747726397226
+                    "ioValue": 1747688530772
                 },
                 {
                     "name": "Sheet Width",
@@ -1858,22 +1858,34 @@
             ],
             "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
             "placements": [
-                {
-                    "translate": {
-                        "x": -842.475341796875,
-                        "y": -202.9396209716797
+                [
+                    {
+                        "id": 0,
+                        "rotate": 0,
+                        "translate": {
+                            "x": 874.43,
+                            "y": 178.1
+                        }
                     },
-                    "id": 3,
-                    "rotate": 0
-                },
-                {
-                    "translate": {
-                        "x": 418.57992552773436,
-                        "y": -554.702084115625
-                    },
-                    "id": 2,
-                    "rotate": 270
-                }
+                    {
+                        "id": 1,
+                        "rotate": 240,
+                        "translate": {
+                            "x": 1968,
+                            "y": 877.999111311449
+                        }
+                    }
+                ],
+                [
+                    {
+                        "id": 2,
+                        "rotate": 240,
+                        "translate": {
+                            "x": 318.8337230195585,
+                            "y": 2438
+                        }
+                    }
+                ]
             ]
         }
     ],
@@ -2000,6 +2012,13 @@
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1747688530772,
+            "ap2ID": 1747729393885
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 1747688587088,
             "ap2ID": 1747688633177
@@ -2045,13 +2064,6 @@
             "ap2Primary": false,
             "ap1ID": 1747726397226,
             "ap2ID": 1747688530772
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1747726397226,
-            "ap2ID": 1747729393885
         },
         {
             "ap1Name": "number or geometry",
