@@ -1858,30 +1858,32 @@
             ],
             "description": "Extracts all parts tagged for cutting and lays them out on a sheet to cut.",
             "placements": [
-                {
-                    "translate": {
-                        "x": 874.433349609375,
-                        "y": 178.10000610351562
+                [
+                    {
+                        "id": 0,
+                        "rotate": 210,
+                        "translate": {
+                            "x": 845.4235285374134,
+                            "y": 590.5478369576663
+                        }
                     },
-                    "id": 3,
-                    "rotate": 0
-                },
-                {
-                    "translate": {
-                        "x": 1207.5642089710936,
-                        "y": 574.3000182910157
+                    {
+                        "id": 1,
+                        "rotate": 300,
+                        "translate": {
+                            "x": 1667.8058247031822,
+                            "y": 557.486508611449
+                        }
                     },
-                    "id": 4,
-                    "rotate": 0
-                },
-                {
-                    "translate": {
-                        "x": 440.4905126890626,
-                        "y": 574.3000183476563
-                    },
-                    "id": 5,
-                    "rotate": 0
-                }
+                    {
+                        "id": 2,
+                        "rotate": 120,
+                        "translate": {
+                            "x": 1986.4381542095887,
+                            "y": 877.9991113363159
+                        }
+                    }
+                ]
             ]
         },
         {
