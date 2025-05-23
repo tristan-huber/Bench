@@ -31,7 +31,12 @@
             "x": 0.9348958333333333,
             "y": 0.5036674816625917,
             "uniqueID": 1747687603211,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1747688530772
+                }
+            ],
             "description": "Connect geometry here to make it available in the next level up. "
         },
         {
@@ -1836,7 +1841,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1747803591592
+                    "ioValue": 1747688530772
                 },
                 {
                     "name": "Sheet Width",
@@ -1858,7 +1863,23 @@
                         "x": 874.433349609375,
                         "y": 178.10000610351562
                     },
-                    "id": 1,
+                    "id": 3,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 1207.5642089710936,
+                        "y": 574.3000182910157
+                    },
+                    "id": 4,
+                    "rotate": 0
+                },
+                {
+                    "translate": {
+                        "x": 440.4905126890626,
+                        "y": 574.3000183476563
+                    },
+                    "id": 5,
                     "rotate": 0
                 }
             ]
@@ -2027,6 +2048,13 @@
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1747688530772,
+            "ap2ID": 1747729393885
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 1747688587088,
             "ap2ID": 1747688633177
@@ -2114,13 +2142,6 @@
             "ap2Primary": false,
             "ap1ID": 1747803566548,
             "ap2ID": 1747688530772
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1747803591592,
-            "ap2ID": 1747729393885
         }
     ],
     "unitsKey": "MM",
