@@ -1756,36 +1756,6 @@
             "compiledBom": []
         },
         {
-            "atomType": "Export",
-            "name": "Export",
-            "x": 0.8632812499999999,
-            "y": 0.744047619047619,
-            "uniqueID": 1747726284552,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1747729393885
-                },
-                {
-                    "name": "Resolution (dpi)",
-                    "ioValue": 96
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "Bench"
-                },
-                {
-                    "name": "File Type",
-                    "ioValue": "SVG"
-                }
-            ],
-            "description": "Export Atom, let's you choose a type of file to Export.",
-            "type": null,
-            "resolution": 96,
-            "importIndex": 0,
-            "partName": "Bench"
-        },
-        {
             "atomType": "Assembly",
             "name": "Assembly",
             "x": 0.5906250000000001,
@@ -2130,13 +2100,6 @@
             "ap2Primary": false,
             "ap1ID": 1747726962622,
             "ap2ID": 1747725845126
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 1747729393885,
-            "ap2ID": 1747726284552
         },
         {
             "ap1Name": "geometry",
