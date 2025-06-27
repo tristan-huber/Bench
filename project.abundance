@@ -97,7 +97,7 @@
                 {
                     "atomType": "Input",
                     "name": "Bench length",
-                    "x": 0.04,
+                    "x": 0.025384615384615384,
                     "y": 0.2744186046511628,
                     "uniqueID": 1747687649956,
                     "ioValues": [],
@@ -107,7 +107,7 @@
                 {
                     "atomType": "Input",
                     "name": "Benchseat width",
-                    "x": 0.04,
+                    "x": 0.025384615384615384,
                     "y": 0.3976744186046512,
                     "uniqueID": 1747687685348,
                     "ioValues": [],
@@ -117,7 +117,7 @@
                 {
                     "atomType": "Input",
                     "name": "Benchseat thickness",
-                    "x": 0.04,
+                    "x": 0.025384615384615384,
                     "y": 0.5209302325581395,
                     "uniqueID": 1747687713601,
                     "ioValues": [],
@@ -186,7 +186,7 @@
         {
             "atomType": "Input",
             "name": "Bench length",
-            "x": 0.04,
+            "x": 0.025384615384615384,
             "y": 0.2558139534883721,
             "uniqueID": 1747687860452,
             "ioValues": [],
@@ -196,7 +196,7 @@
         {
             "atomType": "Input",
             "name": "Seat width",
-            "x": 0.04,
+            "x": 0.025384615384615384,
             "y": 0.4718826405867971,
             "uniqueID": 1747687888856,
             "ioValues": [],
@@ -206,7 +206,7 @@
         {
             "atomType": "Input",
             "name": "Seat thickness",
-            "x": 0.04,
+            "x": 0.025384615384615384,
             "y": 0.627906976744186,
             "uniqueID": 1747687950274,
             "ioValues": [],
@@ -673,7 +673,7 @@
                         {
                             "atomType": "Input",
                             "name": "Diameter",
-                            "x": 0.04,
+                            "x": 0.025384615384615384,
                             "y": 0.6528117359413204,
                             "uniqueID": 1747665151002,
                             "ioValues": [],
@@ -898,7 +898,7 @@
                 {
                     "atomType": "Input",
                     "name": "CornerDiameter",
-                    "x": 0.04,
+                    "x": 0.025384615384615384,
                     "y": 0.8508557457212713,
                     "uniqueID": 1747725844532,
                     "ioValues": [],
@@ -964,7 +964,7 @@
                 {
                     "atomType": "Input",
                     "name": "Benchleg width",
-                    "x": 0.04,
+                    "x": 0.025384615384615384,
                     "y": 0.1491442542787286,
                     "uniqueID": 1747725845274,
                     "ioValues": [],
@@ -974,7 +974,7 @@
                 {
                     "atomType": "Input",
                     "name": "Bench height",
-                    "x": 0.04,
+                    "x": 0.025384615384615384,
                     "y": 0.35452322738386305,
                     "uniqueID": 1747725844594,
                     "ioValues": [],
@@ -1033,7 +1033,7 @@
                 {
                     "atomType": "Input",
                     "name": "Benchseat width",
-                    "x": 0.04,
+                    "x": 0.025384615384615384,
                     "y": 0.5501222493887531,
                     "uniqueID": 1747725844916,
                     "ioValues": [],
@@ -1043,7 +1043,7 @@
                 {
                     "atomType": "Input",
                     "name": "Benchseat thickness",
-                    "x": 0.04,
+                    "x": 0.025384615384615384,
                     "y": 0.7017114914425427,
                     "uniqueID": 1747725844508,
                     "ioValues": [],
@@ -1776,7 +1776,7 @@
         {
             "atomType": "Input",
             "name": "Seat height",
-            "x": 0.04,
+            "x": 0.025384615384615384,
             "y": 0.7701711491442542,
             "uniqueID": 1747726932162,
             "ioValues": [],
@@ -1805,8 +1805,8 @@
         {
             "atomType": "CutLayout",
             "name": "Cut Layout",
-            "x": 0.7421875,
-            "y": 0.8214285714285714,
+            "x": 0.7451171875,
+            "y": 0.7770833333333333,
             "uniqueID": 1747729393885,
             "ioValues": [
                 {
