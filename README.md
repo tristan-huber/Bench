@@ -4,6 +4,14 @@
 
 ![](/project.svg)
 
+## Inputs
+
+- **Bench length** (number)
+- **Seat width** (number)
+- **Seat thickness** (number)
+- **Seat height** (number)
+
+
 
 
  
